@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HannahCategory_Example' do
+  pod 'HannahCategory', :path => '../'
+
+  target 'HannahCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
