@@ -1,0 +1,6 @@
+framework module HannahCategory {
+  umbrella header "HannahCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
