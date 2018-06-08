@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HannahCategory'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '分类'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'HannahCategory/Classes/**/*.{h,m}'
+s.source_files = 'HannahCategory/Classes/HannahCategory.h'
   
   # s.resource_bundles = {
   #   'HannahCategory' => ['HannahCategory/Assets/*.png']
