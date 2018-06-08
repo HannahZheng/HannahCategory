@@ -1,19 +1,19 @@
 PODS:
-  - HannahCategory (1.0.1):
-    - HannahCategory/HHColorHex (= 1.0.1)
-    - HannahCategory/HHRoundCorner (= 1.0.1)
-    - "HannahCategory/NSObject+HHCurrentVC (= 1.0.1)"
-    - "HannahCategory/NSString+HHSize (= 1.0.1)"
-    - "HannahCategory/UIButton+HHBadge (= 1.0.1)"
-    - "HannahCategory/UIImage+HHCompress (= 1.0.1)"
-    - "HannahCategory/UIView+HHLineDash (= 1.0.1)"
-  - HannahCategory/HHColorHex (1.0.1)
-  - HannahCategory/HHRoundCorner (1.0.1)
-  - "HannahCategory/NSObject+HHCurrentVC (1.0.1)"
-  - "HannahCategory/NSString+HHSize (1.0.1)"
-  - "HannahCategory/UIButton+HHBadge (1.0.1)"
-  - "HannahCategory/UIImage+HHCompress (1.0.1)"
-  - "HannahCategory/UIView+HHLineDash (1.0.1)"
+  - HannahCategory (1.0.3):
+    - HannahCategory/HHColorHex (= 1.0.3)
+    - HannahCategory/HHRoundCorner (= 1.0.3)
+    - "HannahCategory/NSObject+HHCurrentVC (= 1.0.3)"
+    - "HannahCategory/NSString+HHSize (= 1.0.3)"
+    - "HannahCategory/UIButton+HHBadge (= 1.0.3)"
+    - "HannahCategory/UIImage+HHCompress (= 1.0.3)"
+    - "HannahCategory/UIView+HHLineDash (= 1.0.3)"
+  - HannahCategory/HHColorHex (1.0.3)
+  - HannahCategory/HHRoundCorner (1.0.3)
+  - "HannahCategory/NSObject+HHCurrentVC (1.0.3)"
+  - "HannahCategory/NSString+HHSize (1.0.3)"
+  - "HannahCategory/UIButton+HHBadge (1.0.3)"
+  - "HannahCategory/UIImage+HHCompress (1.0.3)"
+  - "HannahCategory/UIView+HHLineDash (1.0.3)"
 
 DEPENDENCIES:
   - HannahCategory (from `../`)
@@ -23,8 +23,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HannahCategory: b49e125ccb228886455addf41ac4075b85995552
+  HannahCategory: 3a8b57d4d61b8b6a91158989fd2eadc65a5109bc
 
-PODFILE CHECKSUM: 71724c3a11659ec4b96a736283479d2b831acba0
+PODFILE CHECKSUM: ec146cac0c238f55533cb1581523bc7aa11a9dcd
 
 COCOAPODS: 1.5.3

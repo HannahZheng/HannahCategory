@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HannahCategory'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '分类'
 
 # This description is used to generate tags and improve search results.
@@ -37,11 +37,12 @@ s.source_files = 'HannahCategory/Classes/**/*.{h,m}'
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
   #获取当前的vc
   s.subspec 'NSObject+HHCurrentVC' do |spvc|
+      s
       spvc.source_files = 'HannahCategory/Classes/NSObject+HHCurrentVC/**/*'
   end
 
