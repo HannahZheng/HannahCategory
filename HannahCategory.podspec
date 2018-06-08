@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HannahCategory/Classes/**/*'
+s.source_files = 'HannahCategory/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'HannahCategory' => ['HannahCategory/Assets/*.png']
@@ -41,39 +41,39 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   #获取当前的vc
-  s.subspec 'HannahVC' do |spvc|
-      spvc.source_files = 'HannahCategory/Classes/HannahVC/**/*'
+  s.subspec 'NSObject+HHCurrentVC' do |spvc|
+      spvc.source_files = 'HannahCategory/Classes/NSObject+HHCurrentVC/**/*'
   end
 
   
   #虚线
-  s.subspec 'HannahLineDash' do |spl|
-      spl.source_files = 'HannahCategory/Classes/HannahLineDash/**/*'
+  s.subspec 'UIView+HHLineDash' do |spl|
+      spl.source_files = 'HannahCategory/Classes/UIView+HHLineDash/**/*'
   end
   
   #string size
-  s.subspec 'HannahStringSize' do |spss|
-      spss.source_files = 'HannahCategory/Classes/HannahStringSize/**/*'
+  s.subspec 'NSString+HHSize' do |spss|
+      spss.source_files = 'HannahCategory/Classes/NSString+HHSize/**/*'
   end
   
   # 圆角
-  s.subspec 'HannahRoundCorner' do |sprc|
-      sprc.source_files = 'HannahCategory/Classes/HannahRoundCorner/**/*'
+  s.subspec 'HHRoundCorner' do |sprc|
+      sprc.source_files = 'HannahCategory/Classes/HHRoundCorner/**/*'
   end
   
   # button bage
-  s.subspec 'HannahButtonBadge' do |spbb|
-      spbb.source_files = 'HannahCategory/Classes/HannahButtonBadge/**/*'
+  s.subspec 'UIButton+HHBadge' do |spbb|
+      spbb.source_files = 'HannahCategory/Classes/UIButton+HHBadge/**/*'
   end
   
   #color hex
-  s.subspec 'HannahColorHex' do |spch|
-      spch.source_files = 'HannahCategory/Classes/HannahColorHex/**/*'
+  s.subspec 'HHColorHex' do |spch|
+      spch.source_files = 'HannahCategory/Classes/HHColorHex/**/*'
   end
   
   #image compress
-  s.subspec 'HannahImageCompress' do |spic|
-      spic.source_files = 'HannahCategory/Classes/HannahImageCompress/**/*'
+  s.subspec 'UIImage+HHCompress' do |spic|
+      spic.source_files = 'HannahCategory/Classes/UIImage+HHCompress/**/*'
   end
   
 end

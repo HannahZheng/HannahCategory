@@ -18,36 +18,36 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HannahCategory/Classes/**/*",
+  "source_files": "HannahCategory/Classes/**/*.{h,m}",
   "frameworks": "UIKit",
   "subspecs": [
     {
-      "name": "HannahVC",
-      "source_files": "HannahCategory/Classes/HannahVC/**/*"
+      "name": "NSObject+HHCurrentVC",
+      "source_files": "HannahCategory/Classes/NSObject+HHCurrentVC/**/*"
     },
     {
-      "name": "HannahLineDash",
-      "source_files": "HannahCategory/Classes/HannahLineDash/**/*"
+      "name": "UIView+HHLineDash",
+      "source_files": "HannahCategory/Classes/UIView+HHLineDash/**/*"
     },
     {
-      "name": "HannahStringSize",
-      "source_files": "HannahCategory/Classes/HannahStringSize/**/*"
+      "name": "NSString+HHSize",
+      "source_files": "HannahCategory/Classes/NSString+HHSize/**/*"
     },
     {
-      "name": "HannahRoundCorner",
-      "source_files": "HannahCategory/Classes/HannahRoundCorner/**/*"
+      "name": "HHRoundCorner",
+      "source_files": "HannahCategory/Classes/HHRoundCorner/**/*"
     },
     {
-      "name": "HannahButtonBadge",
-      "source_files": "HannahCategory/Classes/HannahButtonBadge/**/*"
+      "name": "UIButton+HHBadge",
+      "source_files": "HannahCategory/Classes/UIButton+HHBadge/**/*"
     },
     {
-      "name": "HannahColorHex",
-      "source_files": "HannahCategory/Classes/HannahColorHex/**/*"
+      "name": "HHColorHex",
+      "source_files": "HannahCategory/Classes/HHColorHex/**/*"
     },
     {
-      "name": "HannahImageCompress",
-      "source_files": "HannahCategory/Classes/HannahImageCompress/**/*"
+      "name": "UIImage+HHCompress",
+      "source_files": "HannahCategory/Classes/UIImage+HHCompress/**/*"
     }
   ]
 }
