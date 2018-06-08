@@ -1,6 +1,6 @@
 {
   "name": "HannahCategory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "分类",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/HannahZheng/HannahCategory",
@@ -13,10 +13,41 @@
   },
   "source": {
     "git": "https://github.com/HannahZheng/HannahCategory.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HannahCategory/**/*"
+  "source_files": "HannahCategory/Classes/**/*",
+  "frameworks": "UIKit",
+  "subspecs": [
+    {
+      "name": "HannahVC",
+      "source_files": "HannahCategory/Classes/HannahVC/**/*"
+    },
+    {
+      "name": "HannahLineDash",
+      "source_files": "HannahCategory/Classes/HannahLineDash/**/*"
+    },
+    {
+      "name": "HannahStringSize",
+      "source_files": "HannahCategory/Classes/HannahStringSize/**/*"
+    },
+    {
+      "name": "HannahRoundCorner",
+      "source_files": "HannahCategory/Classes/HannahRoundCorner/**/*"
+    },
+    {
+      "name": "HannahButtonBadge",
+      "source_files": "HannahCategory/Classes/HannahButtonBadge/**/*"
+    },
+    {
+      "name": "HannahColorHex",
+      "source_files": "HannahCategory/Classes/HannahColorHex/**/*"
+    },
+    {
+      "name": "HannahImageCompress",
+      "source_files": "HannahCategory/Classes/HannahImageCompress/**/*"
+    }
+  ]
 }

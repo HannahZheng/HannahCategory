@@ -1,5 +1,19 @@
 PODS:
-  - HannahCategory (1.0.0)
+  - HannahCategory (1.0.1):
+    - HannahCategory/HannahButtonBadge (= 1.0.1)
+    - HannahCategory/HannahColorHex (= 1.0.1)
+    - HannahCategory/HannahImageCompress (= 1.0.1)
+    - HannahCategory/HannahLineDash (= 1.0.1)
+    - HannahCategory/HannahRoundCorner (= 1.0.1)
+    - HannahCategory/HannahStringSize (= 1.0.1)
+    - HannahCategory/HannahVC (= 1.0.1)
+  - HannahCategory/HannahButtonBadge (1.0.1)
+  - HannahCategory/HannahColorHex (1.0.1)
+  - HannahCategory/HannahImageCompress (1.0.1)
+  - HannahCategory/HannahLineDash (1.0.1)
+  - HannahCategory/HannahRoundCorner (1.0.1)
+  - HannahCategory/HannahStringSize (1.0.1)
+  - HannahCategory/HannahVC (1.0.1)
 
 DEPENDENCIES:
   - HannahCategory (from `../`)
@@ -9,8 +23,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HannahCategory: 4920f026bc1a6638b3f6d2a97e3f720d2989ef2a
+  HannahCategory: 8986af93d7a89e8795b50d97ec4b40eeaf6c8a9c
 
-PODFILE CHECKSUM: ec146cac0c238f55533cb1581523bc7aa11a9dcd
+PODFILE CHECKSUM: 71724c3a11659ec4b96a736283479d2b831acba0
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
