@@ -37,8 +37,9 @@ s.source_files = 'HannahCategory/Classes/HannahCategory.h'
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit'
+   # s.dependency 'Masonry'
+   
   
   #获取当前的vc
   s.subspec 'NSObject+HHCurrentVC' do |spvc|
@@ -76,5 +77,7 @@ s.source_files = 'HannahCategory/Classes/HannahCategory.h'
   s.subspec 'UIImage+HHCompress' do |spic|
       spic.source_files = 'HannahCategory/Classes/UIImage+HHCompress/**/*'
   end
+  
+ 
   
 end

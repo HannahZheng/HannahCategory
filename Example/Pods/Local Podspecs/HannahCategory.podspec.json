@@ -19,6 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "HannahCategory/Classes/HannahCategory.h",
+  "frameworks": "UIKit",
   "subspecs": [
     {
       "name": "NSObject+HHCurrentVC",
